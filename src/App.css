@@ -1,40 +1,63 @@
-.Nav-Header,
-.Nav-ulList,
-.Nav-Edit {
+.heading-cont {
   display: flex;
+  height: 3.3rem;
+  padding: 0.5rem;
+  align-items: center;
+  width: 58%;
+  border: 1px solid #e6e7eb;
+  border-radius: 7px;
+  justify-content: space-between;
+  margin-left: 260px;
+  margin-right: 40px;
+  margin-top: 20px;
 }
 
-.Nav-Header {
-  margin-top: 10px;
-  margin-right: 15px;
+.img {
+  height: 30px;
+  width: 30px;
 }
 
-.Nav-ulList {
-  /* display: flex; */
-  flex-direction: row;
-  gap: 10px;
-  list-style: none;
+.pic-first {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
 }
 
-.Nav-Edit {
-  margin-left: auto !important;
-  gap: 10px;
+.p-heading {
+  background-color: #d9f9e6;
+  color: #518e72;
+  font-size: 18px;
+  padding: 0.5rem;
+  border-radius: 4px;
 }
 
-.vr {
-  max-height: 20px;
-  min-height: 20px;
+.arrow {
+  align-items: center;
+  border-left: 1px solid #e6e7eb;
+  padding-inline: 0.5rem;
+  color: #aaafb9;
 }
 
-.Navbar-list {
-  text-decoration: none;
+.pic-second {
+  display: flex;
+  gap: 8px;
+  font-size: 20px;
 }
 
-/* .text-link {
-  color: inherit;
-  text-decoration: inherit;
-} */
+.check {
+  color: #aaafb9;
+}
 
-.home-anchor {
-  border: 1px;
+.cloud {
+  color: #539c77;
+}
+
+.clock {
+  display: flex;
+  padding-inline: 0.5rem;
+  border-right: 1px solid #e6e7eb;
+  border-left: 1px solid #e6e7eb;
+  color: #aaafb9;
+  align-items: center;
+  gap: 5px;
 }
