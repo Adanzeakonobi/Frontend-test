@@ -12,6 +12,8 @@ This is a page that changes a text to a h1 element by simply typing / followed b
 - Bootstrap
 - Fontawesome
 - CSS
+- Jest
+- React-Icons
 
 ## Live demo
 
