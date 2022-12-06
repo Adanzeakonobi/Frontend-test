@@ -1,37 +1,54 @@
-import { NavLink } from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronDown, faLock, faBookOpen } from "@fortawesome/free-solid-svg-icons";
+import styles from "./styles/Navigation.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import {
+	faAnglesRight,
+	faBookOpen,
+	faLock,
+	faChevronDown,
+} from "@fortawesome/free-solid-svg-icons";
 
+library.add(faAnglesRight, faBookOpen, faLock, faChevronDown);
 const Navigation = () => {
-    return ( 
-        <header className="Nav-Header">
-            <div></div>
-            <nav>
-                <ul className="Nav-ulList">
-                    <li className="Navbar-list">
-                    <NavLink to="/" style={{ textDecoration: 'none', color: 'inherit' }} className='text-link'><FontAwesomeIcon icon={faBookOpen} />Main</NavLink>
-                    </li>
-                    <li>
-                    <NavLink to="/Getting-started" style={{ textDecoration: 'none',  color: 'inherit'}}>Getting-Started</NavLink>
-                    </li>
-                    <li>
-                    <NavLink to="/Getting-started/frontend-test" style={{ textDecoration: 'none',  color: 'inherit'}}>FrontEnd Developer Test</NavLink>
-                    </li>
-                </ul>
-            </nav>
-            <div className="Nav-Edit">
-              <div className="nav-social-links">
-                <p><FontAwesomeIcon icon={faLock} /> Editing </p> 
-                {/* <FontAwesomeIcon icon="fa-light fa-lock" /> */}
-              </div>
-               <div className="vr"></div>
-               <div className="nav-social-links">
-                  <p>Publish Space <FontAwesomeIcon icon={faChevronDown} /></p>
-                </div>
-            </div>
-            
-        </header>
-     );
+	return (
+		<nav className={styles.navHeader}>
+			<ul className={styles.navList}>
+				<li>
+					<FontAwesomeIcon
+						icon={faAnglesRight}
+						style={{ color: "#6d7380", marginLeft: "-40px", fontSize: "12px" }}
+					/>
+				</li>
+				<li>
+					<FontAwesomeIcon icon={faBookOpen} style={{ paddingRight: "5px" }} />
+					Main <span>/</span>
+				</li>
+				<li>
+					Getting Started <span>/</span>
+				</li>
+				<li>Frontend Developer test proj...</li>
+			</ul>
+
+			<ul className={styles.navList}>
+				<li>
+					<FontAwesomeIcon icon={faLock} style={{ paddingRight: "4px" }} />
+					Editing
+				</li>
+				<span className={styles.division}></span>
+				<li style={{ color: "#4974b1" }}>
+					Publish Space{" "}
+					<FontAwesomeIcon
+						icon={faChevronDown}
+						style={{
+							paddingRight: "4px",
+							marginRight: "25px",
+							paddingLeft: "17px",
+						}}
+					/>
+				</li>
+			</ul>
+		</nav>
+	);
 }
- 
+
 export default Navigation;
