@@ -17,7 +17,7 @@ This is a page that changes a text to a h1 element by simply typing / followed b
 
 ## Live demo
 
-You can visit live version via [Live](https://thunderous-panda-922468.netlify.app/).
+[Live Demo](https://thunderous-panda-922468.netlify.app/).
 
 ## Getting Started
 
