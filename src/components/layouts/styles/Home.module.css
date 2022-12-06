@@ -1,0 +1,38 @@
+.description {
+  width: 58%;
+  margin-left: 260px;
+  margin-right: 40px;
+  margin-top: 30px;
+}
+
+  .description h2 {
+    color: #232830;
+    padding-bottom: 15px;
+   }
+
+  .description h2 span {
+    text-transform: capitalize;
+  }
+
+  .description p {
+    color: #4d5562;
+  }
+
+  .description p span {
+    text-transform: capitalize;
+  }
+  
+  .description input {
+    width: 100%;
+    padding: 10px;
+    background-color: inherit;
+    border: none;
+    color: #4d5562;
+    font-size: 17px;
+  }
+
+  .description input::placeholder {
+    color: #d2d5da;
+    font-size: 20px;
+    font-weight: 500;
+  }
