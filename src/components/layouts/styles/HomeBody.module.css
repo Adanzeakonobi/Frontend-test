@@ -1,0 +1,86 @@
+.homeBody {
+    width: 270px;
+    height: 250px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid #e6e7eb;
+    border-radius: 5px;
+  }
+  
+  .topHomeBody {
+    padding-left: 10px;
+    position: relative;
+  }
+  
+  .topHomeBody h5 {
+    color: #232830;
+  }
+  
+  .topHomeBody h5 span {
+    text-transform: capitalize;
+    display: inline;
+    font-size: inherit;
+    position: inherit;
+    color: inherit;
+  }
+  
+  .topHomeBody span {
+    font-size: 12px;
+    margin-top: 0;
+    position: absolute;
+    top: 23px;
+    color: #9fa5b0;
+  }
+  
+  .topHomeBody p {
+    font-size: 10px;
+    padding-top: 10px;
+    color: #6f7582;
+    font-size: 12px;
+    text-transform: capitalize;
+  }
+  
+  .topHomeBody p span {
+    position: inherit;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    width: 10px;
+    height: 15px;
+    background-color: #3565a9;
+    margin-left: 5px;
+    color: white;
+  }
+  
+  .bottomHomeBody > div:hover {
+    background: #f3f4f6;
+  }
+
+  .bottomHomeBody h1 {
+    padding-top: 0;
+    text-transform: capitalize;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-left: 15px;
+  }
+
+  .bottomHomeBody > div {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .bottomHomeBody div div {
+    padding-left: 15px;
+  }
+
+  .bottomHomeBody div div h5 {
+    color: #232830;
+    text-transform: capitalize;
+    font-size: 17px;
+  }
+  
+  .bottomHomeBody div div p {
+    color: #9fa5b0;
+    margin-top: -5px;
+  }
