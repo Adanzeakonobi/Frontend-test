@@ -1,4 +1,4 @@
-#FrontEnd Test Project
+## FrontEnd Test Project
 
 This is a page that changes a text to a h1 element by simply typing / followed by 1.
 
